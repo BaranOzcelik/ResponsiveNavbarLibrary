@@ -1,0 +1,59 @@
+body{
+    background: black;
+    font-family: "Montserrat", sans-serif;
+}
+.Menu{
+    position: absolute;
+    background-color: blanchedalmond;
+    padding: 25px;
+    top: 45%;
+    left: 40%;
+    border-radius: 10px;
+}
+.Menu a{
+    color: coral;
+    text-decoration: none;
+    font-size: 18px;
+    width: 80px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.Menu a:hover{
+    color: aqua;
+}
+.Menu .Line{
+    width: 60px;
+    height: 5px;
+    margin-top: 5px;
+    background-color: aqua;
+    border-radius: 15px;
+    -webkit-transform: translate(0px);
+    transform: translateX(0px);
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.Menu a:nth-child(1):hover ~ .Line{
+    -webkit-transform: translate(0px);
+    transform: translateX(0px);
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.Menu a:nth-child(2):hover ~ .Line{
+    -webkit-transform: translate(80px);
+    transform: translateX(80px);
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.Menu a:nth-child(3):hover ~ .Line{
+    -webkit-transform: translate(172px);
+    transform: translateX(172px);
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.Menu a:nth-child(4):hover ~ .Line{
+    -webkit-transform: translate(255px);
+    transform: translateX(255px);
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
